@@ -1,0 +1,15 @@
+#Desabilita a listagem de diretórios do projeto
+
+Options -Indexes 
+
+#Bloqueia todas as páginas .php
+#<Files *.php>
+#    Order Deny,Allow
+#    Deny from all
+#</Files>
+
+#Libera apenas a index
+#<Files /index.php>
+#    Order Allow,Deny
+#    Allow from all
+#</Files>
